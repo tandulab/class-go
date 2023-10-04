@@ -1,1 +1,0 @@
-import{D as o}from"./datetime43427.js";const m=function(t){return t?o.fromSeconds(t).toFormat("dd/MM/yyyy HH:mm"):""},n=function(t){return o.fromISO(t).toFormat("dd/MM/yyyy")},a=function(t){return o.fromISO(t).toFormat("dd/MM/yyyy HH:mm")};export{m as a,a as b,n as f};
