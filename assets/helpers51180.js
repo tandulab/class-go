@@ -1,2 +1,0 @@
-import{U as a}from"../index51180.js";const s=a(),i=()=>s.hideLoader(),n=()=>s.showLoader();function t(o,e){o.add({detail:e.message,life:3e3,severity:e.error?"error":"success",summary:e.error?"Errore":e.title})}const c=function(o,e){let r="";e.data&&e.data.errors?r=Object.values(e.data.errors).join(`
-`):e.data.error?r=e.data.error:e.data.info&&(r=e.data.info),t(o,{message:r,error:!0})};export{t as a,c as e,i as h,n as s};
